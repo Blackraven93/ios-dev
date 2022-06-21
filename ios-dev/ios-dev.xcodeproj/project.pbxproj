@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		970FBCCC2860C111009835FC /* ios_devApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCCB2860C111009835FC /* ios_devApp.swift */; };
-		970FBCCE2860C111009835FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCCD2860C111009835FC /* ContentView.swift */; };
+		970FBCCE2860C111009835FC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCCD2860C111009835FC /* MeetingView.swift */; };
 		970FBCD02860C112009835FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970FBCCF2860C112009835FC /* Assets.xcassets */; };
 		970FBCD32860C112009835FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970FBCD22860C112009835FC /* Preview Assets.xcassets */; };
 		970FBCDD2860C112009835FC /* ios_devTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCDC2860C112009835FC /* ios_devTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		970FBCC82860C111009835FC /* ios-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		970FBCCB2860C111009835FC /* ios_devApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devApp.swift; sourceTree = "<group>"; };
-		970FBCCD2860C111009835FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		970FBCCD2860C111009835FC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		970FBCCF2860C112009835FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		970FBCD22860C112009835FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		970FBCD82860C112009835FC /* ios-devTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				970FBCCB2860C111009835FC /* ios_devApp.swift */,
-				970FBCCD2860C111009835FC /* ContentView.swift */,
+				970FBCCD2860C111009835FC /* MeetingView.swift */,
 				970FBCCF2860C112009835FC /* Assets.xcassets */,
 				970FBCD12860C112009835FC /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970FBCCE2860C111009835FC /* ContentView.swift in Sources */,
+				970FBCCE2860C111009835FC /* MeetingView.swift in Sources */,
 				970FBCCC2860C111009835FC /* ios_devApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
