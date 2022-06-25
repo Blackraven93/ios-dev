@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_devApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
