@@ -62,11 +62,11 @@ struct DetailView: View {
                             }
                         }
                         ToolbarItem(placement: .confirmationAction) {
-                            Button("Done") {
-                                isPresentingEditView = false
-                                scrum.update(from: data)
-                            }
-                        }
+                       Button("Done") {
+                           isPresentingEditView = false
+                           scrum.update(from: data)
+                       }
+                   }
                 }
            }
         }
