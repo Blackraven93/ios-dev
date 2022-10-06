@@ -12,8 +12,8 @@
 		970FBCDD2860C112009835FC /* ios_devTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCDC2860C112009835FC /* ios_devTests.swift */; };
 		970FBCE72860C112009835FC /* ios_devUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE62860C112009835FC /* ios_devUITests.swift */; };
 		970FBCE92860C112009835FC /* ios_devUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE82860C112009835FC /* ios_devUITestsLaunchTests.swift */; };
+		971A222F28EF22DA00D828CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971A222E28EF22DA00D828CA /* Assets.xcassets */; };
 		974385642867506500CFFC40 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974385632867506500CFFC40 /* ContentsView.swift */; };
-		975AD0E2286E0D7E009F4F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975AD0E1286E0D7E009F4F0B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		970FBCE22860C112009835FC /* ios-devUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		970FBCE62860C112009835FC /* ios_devUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITests.swift; sourceTree = "<group>"; };
 		970FBCE82860C112009835FC /* ios_devUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		971A222E28EF22DA00D828CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974385632867506500CFFC40 /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
-		975AD0E1286E0D7E009F4F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/ManagingStateAndLifeCycle/Complete/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +74,7 @@
 		970FBCBF2860C111009835FC = {
 			isa = PBXGroup;
 			children = (
+				971A222E28EF22DA00D828CA /* Assets.xcassets */,
 				970FBCCA2860C111009835FC /* ios-dev */,
 				970FBCDB2860C112009835FC /* ios-devTests */,
 				970FBCE52860C112009835FC /* ios-devUITests */,
@@ -96,7 +97,6 @@
 			children = (
 				97A6565C2863618100287816 /* Views */,
 				970FBCCB2860C111009835FC /* ios_devApp.swift */,
-				975AD0E1286E0D7E009F4F0B /* Assets.xcassets */,
 				970FBCD12860C112009835FC /* Preview Content */,
 			);
 			path = "ios-dev";
@@ -239,8 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971A222F28EF22DA00D828CA /* Assets.xcassets in Resources */,
 				970FBCD32860C112009835FC /* Preview Assets.xcassets in Resources */,
-				975AD0E2286E0D7E009F4F0B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
