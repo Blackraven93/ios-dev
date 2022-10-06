@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ios_devApp: App {
+struct SwiftUIBoilerplateApp: App {
     var body: some Scene {
         #if os(iOS)
         IosScene()

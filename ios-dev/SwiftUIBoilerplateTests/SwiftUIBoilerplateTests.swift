@@ -8,7 +8,7 @@
 import XCTest
 @testable import ios_dev
 
-class ios_devTests: XCTestCase {
+class SwiftUIBoilerplateTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/raven/Desktop/programming/swift/ios-dev/ios-dev/SwiftUIBoilerplate.xcodeproj">
    </FileRef>
 </Workspace>

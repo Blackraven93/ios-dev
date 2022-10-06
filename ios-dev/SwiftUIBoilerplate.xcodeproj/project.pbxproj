@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		970FBCCC2860C111009835FC /* ios_devApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCCB2860C111009835FC /* ios_devApp.swift */; };
+		970FBCCC2860C111009835FC /* SwiftUIBoilerplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCCB2860C111009835FC /* SwiftUIBoilerplateApp.swift */; };
 		970FBCD32860C112009835FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970FBCD22860C112009835FC /* Preview Assets.xcassets */; };
-		970FBCDD2860C112009835FC /* ios_devTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCDC2860C112009835FC /* ios_devTests.swift */; };
-		970FBCE72860C112009835FC /* ios_devUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE62860C112009835FC /* ios_devUITests.swift */; };
-		970FBCE92860C112009835FC /* ios_devUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE82860C112009835FC /* ios_devUITestsLaunchTests.swift */; };
+		970FBCDD2860C112009835FC /* SwiftUIBoilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCDC2860C112009835FC /* SwiftUIBoilerplateTests.swift */; };
+		970FBCE72860C112009835FC /* SwiftUIBoilerplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE62860C112009835FC /* SwiftUIBoilerplateUITests.swift */; };
+		970FBCE92860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE82860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift */; };
 		971A222F28EF22DA00D828CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971A222E28EF22DA00D828CA /* Assets.xcassets */; };
 		971A223128EF24D800D828CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A223028EF24D800D828CA /* SettingsView.swift */; };
 		974385642867506500CFFC40 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974385632867506500CFFC40 /* ContentsView.swift */; };
@@ -39,19 +39,20 @@
 
 /* Begin PBXFileReference section */
 		970FBCC82860C111009835FC /* ios-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		970FBCCB2860C111009835FC /* ios_devApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devApp.swift; sourceTree = "<group>"; };
+		970FBCCB2860C111009835FC /* SwiftUIBoilerplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateApp.swift; sourceTree = "<group>"; };
 		970FBCD22860C112009835FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		970FBCD82860C112009835FC /* ios-devTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		970FBCDC2860C112009835FC /* ios_devTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devTests.swift; sourceTree = "<group>"; };
+		970FBCDC2860C112009835FC /* SwiftUIBoilerplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateTests.swift; sourceTree = "<group>"; };
 		970FBCE22860C112009835FC /* ios-devUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-devUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		970FBCE62860C112009835FC /* ios_devUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITests.swift; sourceTree = "<group>"; };
-		970FBCE82860C112009835FC /* ios_devUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_devUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		970FBCE62860C112009835FC /* SwiftUIBoilerplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateUITests.swift; sourceTree = "<group>"; };
+		970FBCE82860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		971A222E28EF22DA00D828CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971A223028EF24D800D828CA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		974385632867506500CFFC40 /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
 		97DD613428EF8DDE00C04785 /* IosScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosScene.swift; sourceTree = "<group>"; };
 		97DD613728EF8E5C00C04785 /* MacOsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOsScene.swift; sourceTree = "<group>"; };
 		97DD613928EF8EE400C04785 /* AlternativeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeContentView.swift; sourceTree = "<group>"; };
+		97DD613B28EF90FC00C04785 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +83,11 @@
 		970FBCBF2860C111009835FC = {
 			isa = PBXGroup;
 			children = (
+				97DD613B28EF90FC00C04785 /* README.md */,
 				971A222E28EF22DA00D828CA /* Assets.xcassets */,
-				970FBCCA2860C111009835FC /* ios-dev */,
-				970FBCDB2860C112009835FC /* ios-devTests */,
-				970FBCE52860C112009835FC /* ios-devUITests */,
+				970FBCCA2860C111009835FC /* SwiftUIBoilerplate */,
+				970FBCDB2860C112009835FC /* SwiftUIBoilerplateTests */,
+				970FBCE52860C112009835FC /* SwiftUIBoilerplateUITests */,
 				970FBCC92860C111009835FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,15 +102,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		970FBCCA2860C111009835FC /* ios-dev */ = {
+		970FBCCA2860C111009835FC /* SwiftUIBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				97DD613128EF8D9000C04785 /* Scenes */,
 				97A6565C2863618100287816 /* Views */,
-				970FBCCB2860C111009835FC /* ios_devApp.swift */,
+				970FBCCB2860C111009835FC /* SwiftUIBoilerplateApp.swift */,
 				970FBCD12860C112009835FC /* Preview Content */,
 			);
-			path = "ios-dev";
+			path = SwiftUIBoilerplate;
 			sourceTree = "<group>";
 		};
 		970FBCD12860C112009835FC /* Preview Content */ = {
@@ -119,21 +121,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		970FBCDB2860C112009835FC /* ios-devTests */ = {
+		970FBCDB2860C112009835FC /* SwiftUIBoilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				970FBCDC2860C112009835FC /* ios_devTests.swift */,
+				970FBCDC2860C112009835FC /* SwiftUIBoilerplateTests.swift */,
 			);
-			path = "ios-devTests";
+			path = SwiftUIBoilerplateTests;
 			sourceTree = "<group>";
 		};
-		970FBCE52860C112009835FC /* ios-devUITests */ = {
+		970FBCE52860C112009835FC /* SwiftUIBoilerplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				970FBCE62860C112009835FC /* ios_devUITests.swift */,
-				970FBCE82860C112009835FC /* ios_devUITestsLaunchTests.swift */,
+				970FBCE62860C112009835FC /* SwiftUIBoilerplateUITests.swift */,
+				970FBCE82860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift */,
 			);
-			path = "ios-devUITests";
+			path = SwiftUIBoilerplateUITests;
 			sourceTree = "<group>";
 		};
 		97A6565C2863618100287816 /* Views */ = {
@@ -234,8 +236,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 970FBCC32860C111009835FC /* Build configuration list for PBXProject "ios-dev" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 970FBCC32860C111009835FC /* Build configuration list for PBXProject "SwiftUIBoilerplate" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -290,7 +292,7 @@
 				97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */,
 				97DD613828EF8E5C00C04785 /* MacOsScene.swift in Sources */,
 				97DD613528EF8DDE00C04785 /* IosScene.swift in Sources */,
-				970FBCCC2860C111009835FC /* ios_devApp.swift in Sources */,
+				970FBCCC2860C111009835FC /* SwiftUIBoilerplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970FBCDD2860C112009835FC /* ios_devTests.swift in Sources */,
+				970FBCDD2860C112009835FC /* SwiftUIBoilerplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970FBCE92860C112009835FC /* ios_devUITestsLaunchTests.swift in Sources */,
-				970FBCE72860C112009835FC /* ios_devUITests.swift in Sources */,
+				970FBCE92860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift in Sources */,
+				970FBCE72860C112009835FC /* SwiftUIBoilerplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-dev/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBoilerplate/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Q9399ZKMY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -477,7 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-dev/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBoilerplate/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Q9399ZKMY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -578,7 +580,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		970FBCC32860C111009835FC /* Build configuration list for PBXProject "ios-dev" */ = {
+		970FBCC32860C111009835FC /* Build configuration list for PBXProject "SwiftUIBoilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				970FBCEA2860C112009835FC /* Debug */,
