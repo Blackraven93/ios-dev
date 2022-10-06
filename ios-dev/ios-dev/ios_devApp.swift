@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct ios_devApp: App {
     var body: some Scene {
-        WindowGroup {
-                ContentView()
-        }
+        #if os(iOS)
+        IosScene()
+        #elseif os(macOS)
+        MacOsScene()
+        #endif
     }
 }
