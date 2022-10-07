@@ -18,6 +18,7 @@
 		97DD613528EF8DDE00C04785 /* IosScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613428EF8DDE00C04785 /* IosScene.swift */; };
 		97DD613828EF8E5C00C04785 /* MacOsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613728EF8E5C00C04785 /* MacOsScene.swift */; };
 		97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613928EF8EE400C04785 /* AlternativeContentView.swift */; };
+		97DD613D28F0723200C04785 /* KeywordBubbleDefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		97DD613728EF8E5C00C04785 /* MacOsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOsScene.swift; sourceTree = "<group>"; };
 		97DD613928EF8EE400C04785 /* AlternativeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeContentView.swift; sourceTree = "<group>"; };
 		97DD613B28EF90FC00C04785 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubbleDefaultPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				974385632867506500CFFC40 /* ContentsView.swift */,
 				971A223028EF24D800D828CA /* SettingsView.swift */,
 				97DD613928EF8EE400C04785 /* AlternativeContentView.swift */,
+				97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				971A223128EF24D800D828CA /* SettingsView.swift in Sources */,
 				974385642867506500CFFC40 /* ContentsView.swift in Sources */,
+				97DD613D28F0723200C04785 /* KeywordBubbleDefaultPadding.swift in Sources */,
 				97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */,
 				97DD613828EF8E5C00C04785 /* MacOsScene.swift in Sources */,
 				97DD613528EF8DDE00C04785 /* IosScene.swift in Sources */,
