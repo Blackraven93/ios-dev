@@ -18,6 +18,9 @@
 		9775CC3D28F463CC00E3AF0D /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */; };
 		979F897028F5B58600166A4D /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F896F28F5B58600166A4D /* IfElseTrain.swift */; };
 		979F897228F5B6D700166A4D /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F897128F5B6D700166A4D /* EventTile.swift */; };
+		97AD3963290AD20A00F70CB9 /* RecipeEditorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3962290AD20A00F70CB9 /* RecipeEditorConfig.swift */; };
+		97AD3965290AD23200F70CB9 /* RecipeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3964290AD23200F70CB9 /* RecipeEditor.swift */; };
+		97AD3967290AD25A00F70CB9 /* ContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD3966290AD25A00F70CB9 /* ContentListView.swift */; };
 		97B96B7328F8512100B603AB /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7228F8512100B603AB /* TrainCar.swift */; };
 		97B96B7528F851F200B603AB /* DefaultSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7428F851F200B603AB /* DefaultSpacing.swift */; };
 		97B96B7728F852E000B603AB /* SpecificSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7628F852E000B603AB /* SpecificSpacing.swift */; };
@@ -63,6 +66,9 @@
 		9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
 		979F896F28F5B58600166A4D /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
 		979F897128F5B6D700166A4D /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
+		97AD3962290AD20A00F70CB9 /* RecipeEditorConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditorConfig.swift; sourceTree = "<group>"; };
+		97AD3964290AD23200F70CB9 /* RecipeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEditor.swift; sourceTree = "<group>"; };
+		97AD3966290AD25A00F70CB9 /* ContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListView.swift; sourceTree = "<group>"; };
 		97B96B7228F8512100B603AB /* TrainCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
 		97B96B7428F851F200B603AB /* DefaultSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpacing.swift; sourceTree = "<group>"; };
 		97B96B7628F852E000B603AB /* SpecificSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificSpacing.swift; sourceTree = "<group>"; };
@@ -163,6 +169,7 @@
 		9775CC3B28F463BD00E3AF0D /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				97AD3961290AD1FA00F70CB9 /* Recipe */,
 				97B96B7A28F8531B00B603AB /* Train */,
 				9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */,
 				979F896F28F5B58600166A4D /* IfElseTrain.swift */,
@@ -181,6 +188,16 @@
 				97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		97AD3961290AD1FA00F70CB9 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				97AD3962290AD20A00F70CB9 /* RecipeEditorConfig.swift */,
+				97AD3964290AD23200F70CB9 /* RecipeEditor.swift */,
+				97AD3966290AD25A00F70CB9 /* ContentListView.swift */,
+			);
+			path = Recipe;
 			sourceTree = "<group>";
 		};
 		97B96B7A28F8531B00B603AB /* Train */ = {
@@ -338,12 +355,15 @@
 			files = (
 				97B96B8028F8537300B603AB /* StackingPlaceholder.swift in Sources */,
 				9775CC3D28F463CC00E3AF0D /* CaptionedPhoto.swift in Sources */,
+				97AD3965290AD23200F70CB9 /* RecipeEditor.swift in Sources */,
 				97B96B7328F8512100B603AB /* TrainCar.swift in Sources */,
 				971A223128EF24D800D828CA /* SettingsView.swift in Sources */,
+				97AD3963290AD20A00F70CB9 /* RecipeEditorConfig.swift in Sources */,
 				97B96B7C28F8534400B603AB /* AddingSpacer.swift in Sources */,
 				97B96B7728F852E000B603AB /* SpecificSpacing.swift in Sources */,
 				974385642867506500CFFC40 /* ContentsView.swift in Sources */,
 				97DD613D28F0723200C04785 /* KeywordBubbleDefaultPadding.swift in Sources */,
+				97AD3967290AD25A00F70CB9 /* ContentListView.swift in Sources */,
 				97B96B7528F851F200B603AB /* DefaultSpacing.swift in Sources */,
 				979F897228F5B6D700166A4D /* EventTile.swift in Sources */,
 				97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */,
