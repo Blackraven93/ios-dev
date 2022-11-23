@@ -13,33 +13,8 @@
 		970FBCE72860C112009835FC /* SwiftUIBoilerplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE62860C112009835FC /* SwiftUIBoilerplateUITests.swift */; };
 		970FBCE92860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970FBCE82860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift */; };
 		971A222F28EF22DA00D828CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971A222E28EF22DA00D828CA /* Assets.xcassets */; };
-		971A223128EF24D800D828CA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A223028EF24D800D828CA /* SettingsView.swift */; };
-		974385642867506500CFFC40 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974385632867506500CFFC40 /* ContentsView.swift */; };
-		9775CC3D28F463CC00E3AF0D /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */; };
-		97959CFB290EC5D3006D0C89 /* MemeCreatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97959CFA290EC5D3006D0C89 /* MemeCreatorApp.swift */; };
-		97959CFD290EC600006D0C89 /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97959CFC290EC600006D0C89 /* Panda.swift */; };
-		97959CFF290EC615006D0C89 /* PandaCollectionFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97959CFE290EC615006D0C89 /* PandaCollectionFetcher.swift */; };
-		97959D01290EC62A006D0C89 /* LoadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97959D00290EC62A006D0C89 /* LoadableImage.swift */; };
-		97959D03290EC64C006D0C89 /* MemeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97959D02290EC64C006D0C89 /* MemeCreator.swift */; };
-		979F897028F5B58600166A4D /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F896F28F5B58600166A4D /* IfElseTrain.swift */; };
-		979F897228F5B6D700166A4D /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F897128F5B6D700166A4D /* EventTile.swift */; };
-		97A27C1B29100FAD00315912 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C1A29100FAD00315912 /* AboutMe.swift */; };
-		97A27C1D29100FC600315912 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C1C29100FC600315912 /* HomeView.swift */; };
-		97A27C1F29100FE700315912 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C1E29100FE700315912 /* Model.swift */; };
-		97A27C212910102E00315912 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C202910102E00315912 /* StoryView.swift */; };
-		97A27C232910104400315912 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C222910104400315912 /* FavoritesView.swift */; };
-		97A27C252910108D00315912 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A27C242910108D00315912 /* FunFactsView.swift */; };
-		97B96B7328F8512100B603AB /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7228F8512100B603AB /* TrainCar.swift */; };
-		97B96B7528F851F200B603AB /* DefaultSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7428F851F200B603AB /* DefaultSpacing.swift */; };
-		97B96B7728F852E000B603AB /* SpecificSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7628F852E000B603AB /* SpecificSpacing.swift */; };
-		97B96B7928F852FC00B603AB /* DefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7828F852FC00B603AB /* DefaultPadding.swift */; };
-		97B96B7C28F8534400B603AB /* AddingSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7B28F8534400B603AB /* AddingSpacer.swift */; };
-		97B96B7E28F8535A00B603AB /* AddingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7D28F8535A00B603AB /* AddingPlaceholder.swift */; };
-		97B96B8028F8537300B603AB /* StackingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B96B7F28F8537300B603AB /* StackingPlaceholder.swift */; };
-		97DD613528EF8DDE00C04785 /* IosScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613428EF8DDE00C04785 /* IosScene.swift */; };
-		97DD613828EF8E5C00C04785 /* MacOsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613728EF8E5C00C04785 /* MacOsScene.swift */; };
-		97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613928EF8EE400C04785 /* AlternativeContentView.swift */; };
-		97DD613D28F0723200C04785 /* KeywordBubbleDefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */; };
+		97700C29292E8026007115D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97700C28292E8026007115D8 /* ContentView.swift */; };
+		97700C2B292E83D2007115D8 /* ToDoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97700C2A292E83D2007115D8 /* ToDoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,34 +44,9 @@
 		970FBCE62860C112009835FC /* SwiftUIBoilerplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateUITests.swift; sourceTree = "<group>"; };
 		970FBCE82860C112009835FC /* SwiftUIBoilerplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBoilerplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		971A222E28EF22DA00D828CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		971A223028EF24D800D828CA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		974385632867506500CFFC40 /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
-		9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
-		97959CFA290EC5D3006D0C89 /* MemeCreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreatorApp.swift; sourceTree = "<group>"; };
-		97959CFC290EC600006D0C89 /* Panda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
-		97959CFE290EC615006D0C89 /* PandaCollectionFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaCollectionFetcher.swift; sourceTree = "<group>"; };
-		97959D00290EC62A006D0C89 /* LoadableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableImage.swift; sourceTree = "<group>"; };
-		97959D02290EC64C006D0C89 /* MemeCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreator.swift; sourceTree = "<group>"; };
-		979F896F28F5B58600166A4D /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
-		979F897128F5B6D700166A4D /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
-		97A27C1A29100FAD00315912 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
-		97A27C1C29100FC600315912 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		97A27C1E29100FE700315912 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		97A27C202910102E00315912 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
-		97A27C222910104400315912 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		97A27C242910108D00315912 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
-		97B96B7228F8512100B603AB /* TrainCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
-		97B96B7428F851F200B603AB /* DefaultSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSpacing.swift; sourceTree = "<group>"; };
-		97B96B7628F852E000B603AB /* SpecificSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificSpacing.swift; sourceTree = "<group>"; };
-		97B96B7828F852FC00B603AB /* DefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPadding.swift; sourceTree = "<group>"; };
-		97B96B7B28F8534400B603AB /* AddingSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSpacer.swift; sourceTree = "<group>"; };
-		97B96B7D28F8535A00B603AB /* AddingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlaceholder.swift; sourceTree = "<group>"; };
-		97B96B7F28F8537300B603AB /* StackingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingPlaceholder.swift; sourceTree = "<group>"; };
-		97DD613428EF8DDE00C04785 /* IosScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosScene.swift; sourceTree = "<group>"; };
-		97DD613728EF8E5C00C04785 /* MacOsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOsScene.swift; sourceTree = "<group>"; };
-		97DD613928EF8EE400C04785 /* AlternativeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeContentView.swift; sourceTree = "<group>"; };
+		97700C28292E8026007115D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97700C2A292E83D2007115D8 /* ToDoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailView.swift; sourceTree = "<group>"; };
 		97DD613B28EF90FC00C04785 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubbleDefaultPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +99,6 @@
 		970FBCCA2860C111009835FC /* SwiftUIBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				97DD613128EF8D9000C04785 /* Scenes */,
 				97A6565C2863618100287816 /* Views */,
 				970FBCCB2860C111009835FC /* SwiftUIBoilerplateApp.swift */,
 				970FBCD12860C112009835FC /* Preview Content */,
@@ -182,77 +131,13 @@
 			path = SwiftUIBoilerplateUITests;
 			sourceTree = "<group>";
 		};
-		9775CC3B28F463BD00E3AF0D /* Layouts */ = {
-			isa = PBXGroup;
-			children = (
-				97B96B7A28F8531B00B603AB /* Train */,
-				9775CC3C28F463CC00E3AF0D /* CaptionedPhoto.swift */,
-				979F896F28F5B58600166A4D /* IfElseTrain.swift */,
-				979F897128F5B6D700166A4D /* EventTile.swift */,
-			);
-			path = Layouts;
-			sourceTree = "<group>";
-		};
-		97959CF9290EC5B8006D0C89 /* MemoCreater */ = {
-			isa = PBXGroup;
-			children = (
-				97959CFA290EC5D3006D0C89 /* MemeCreatorApp.swift */,
-				97959CFC290EC600006D0C89 /* Panda.swift */,
-				97959CFE290EC615006D0C89 /* PandaCollectionFetcher.swift */,
-				97959D00290EC62A006D0C89 /* LoadableImage.swift */,
-				97959D02290EC64C006D0C89 /* MemeCreator.swift */,
-			);
-			path = MemoCreater;
-			sourceTree = "<group>";
-		};
-		97A27C1929100F8E00315912 /* AboutMe */ = {
-			isa = PBXGroup;
-			children = (
-				97A27C1A29100FAD00315912 /* AboutMe.swift */,
-				97A27C1C29100FC600315912 /* HomeView.swift */,
-				97A27C1E29100FE700315912 /* Model.swift */,
-				97A27C202910102E00315912 /* StoryView.swift */,
-				97A27C222910104400315912 /* FavoritesView.swift */,
-				97A27C242910108D00315912 /* FunFactsView.swift */,
-			);
-			path = AboutMe;
-			sourceTree = "<group>";
-		};
 		97A6565C2863618100287816 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				97A27C1929100F8E00315912 /* AboutMe */,
-				97959CF9290EC5B8006D0C89 /* MemoCreater */,
-				9775CC3B28F463BD00E3AF0D /* Layouts */,
-				974385632867506500CFFC40 /* ContentsView.swift */,
-				971A223028EF24D800D828CA /* SettingsView.swift */,
-				97DD613928EF8EE400C04785 /* AlternativeContentView.swift */,
-				97DD613C28F0723200C04785 /* KeywordBubbleDefaultPadding.swift */,
+				97700C28292E8026007115D8 /* ContentView.swift */,
+				97700C2A292E83D2007115D8 /* ToDoDetailView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		97B96B7A28F8531B00B603AB /* Train */ = {
-			isa = PBXGroup;
-			children = (
-				97B96B7228F8512100B603AB /* TrainCar.swift */,
-				97B96B7428F851F200B603AB /* DefaultSpacing.swift */,
-				97B96B7628F852E000B603AB /* SpecificSpacing.swift */,
-				97B96B7828F852FC00B603AB /* DefaultPadding.swift */,
-				97B96B7B28F8534400B603AB /* AddingSpacer.swift */,
-				97B96B7D28F8535A00B603AB /* AddingPlaceholder.swift */,
-				97B96B7F28F8537300B603AB /* StackingPlaceholder.swift */,
-			);
-			path = Train;
-			sourceTree = "<group>";
-		};
-		97DD613128EF8D9000C04785 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				97DD613428EF8DDE00C04785 /* IosScene.swift */,
-				97DD613728EF8E5C00C04785 /* MacOsScene.swift */,
-			);
-			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,34 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97959CFD290EC600006D0C89 /* Panda.swift in Sources */,
-				97B96B8028F8537300B603AB /* StackingPlaceholder.swift in Sources */,
-				9775CC3D28F463CC00E3AF0D /* CaptionedPhoto.swift in Sources */,
-				97B96B7328F8512100B603AB /* TrainCar.swift in Sources */,
-				97A27C1B29100FAD00315912 /* AboutMe.swift in Sources */,
-				971A223128EF24D800D828CA /* SettingsView.swift in Sources */,
-				97B96B7C28F8534400B603AB /* AddingSpacer.swift in Sources */,
-				97B96B7728F852E000B603AB /* SpecificSpacing.swift in Sources */,
-				97A27C232910104400315912 /* FavoritesView.swift in Sources */,
-				974385642867506500CFFC40 /* ContentsView.swift in Sources */,
-				97A27C252910108D00315912 /* FunFactsView.swift in Sources */,
-				97DD613D28F0723200C04785 /* KeywordBubbleDefaultPadding.swift in Sources */,
-				97A27C1F29100FE700315912 /* Model.swift in Sources */,
-				97B96B7528F851F200B603AB /* DefaultSpacing.swift in Sources */,
-				979F897228F5B6D700166A4D /* EventTile.swift in Sources */,
-				97DD613A28EF8EE400C04785 /* AlternativeContentView.swift in Sources */,
-				97DD613828EF8E5C00C04785 /* MacOsScene.swift in Sources */,
-				97DD613528EF8DDE00C04785 /* IosScene.swift in Sources */,
-				97B96B7E28F8535A00B603AB /* AddingPlaceholder.swift in Sources */,
-				97959D03290EC64C006D0C89 /* MemeCreator.swift in Sources */,
-				979F897028F5B58600166A4D /* IfElseTrain.swift in Sources */,
-				97959CFB290EC5D3006D0C89 /* MemeCreatorApp.swift in Sources */,
-				97959CFF290EC615006D0C89 /* PandaCollectionFetcher.swift in Sources */,
-				97959D01290EC62A006D0C89 /* LoadableImage.swift in Sources */,
-				97A27C212910102E00315912 /* StoryView.swift in Sources */,
-				97A27C1D29100FC600315912 /* HomeView.swift in Sources */,
+				97700C29292E8026007115D8 /* ContentView.swift in Sources */,
+				97700C2B292E83D2007115D8 /* ToDoDetailView.swift in Sources */,
 				970FBCCC2860C111009835FC /* SwiftUIBoilerplateApp.swift in Sources */,
-				97B96B7928F852FC00B603AB /* DefaultPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
